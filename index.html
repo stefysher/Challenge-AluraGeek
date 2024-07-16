@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <!--Cabecera - titulo-->
+    <div class="todo-cuerpo">
+        <section class="titulo">
+            <header class="titulo_header">
+                <h2>Alura Geek</h2>
+            </header>
+        </section>
+
+
+        <!--Agregar productos-->
+        <section>
+            <div class="cuerpo">
+                <div class="gallery">
+                    <a target="_blank" href="img/cuaderno.jpg">
+                      <img src="img/cuaderno.jpg" alt="Cinque Terre" width="500" height="400">
+                    </a>
+                    <div class="desc">Cuadernos $80.000</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="img/cuaderno.jpg">
+                      <img src="img/cuaderno.jpg" alt="Cinque Terre" width="500" height="400">
+                    </a>
+                    <div class="desc">Cuadernos $80.000</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="img/cuaderno.jpg">
+                      <img src="img/cuaderno.jpg" alt="Cinque Terre" width="500" height="400">
+                    </a>
+                    <div class="desc">Cuadernos $80.000</div>
+                </div>
+                <div class="formproducto_text">
+                    <h2>AGREGAR PRODUCTO</h2>
+                    <form class="form_producto" name="form">
+                        <input class="formproducto_input" type="text" placeholder="Nombre producto" maxlength="50">
+                        <input class="formproducto_input" type="number" placeholder="Precio" maxlength="15">
+                        <input class="formproducto_input" type="file" id="fileInput" name="image" accept="image/*">
+                        <button class="formproducto__enviar" type="button" onclick="UploadImage()">Enviar</button>
+                        <button class="formproducto__limpiar">Limpiar</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+       
+       
+
+    </div>
+
+     <!-- Sección de Footer -->
+     <section class="footer">
+        <footer class="footer__rodape">
+            <h3>Desarrollado por Stefany Herrera - Alura geek - 2024</h3>
+        </footer>
+    </section>
+
+    <!-- Documento javaScript-->
+     <script src="funciones.js"></script>
+    
+
+
+
+    
+    
+</body>
+
+
+</html>
